@@ -50,3 +50,36 @@ a{
 body{
     background-color: #E7E141;
 }
+
+@media only screen and (max-width: 600px){
+    .line{
+        display: block;
+    }
+
+    #logo{
+        max-width: 50%;
+    }
+
+    header{
+        margin-left: 10px;
+    }
+
+    .main{
+        border-radius: 2%;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .livro{
+        display: inline-block;
+        text-align: center;
+        width: 70%;
+        height: 100%;
+        margin: 10px;
+    }
+
+    h1{
+        font-size: 110%;
+    }
+}
