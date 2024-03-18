@@ -1,0 +1,116 @@
+body{
+    background-color: #E7E141;
+    max-height: 90%;
+}
+
+.main{
+    display: flex;
+}
+
+.principal{
+    border-top: 10px solid #0460DE;
+    border-radius: 3%;
+    height: 90%;
+    background-color: #0460DE;
+    color: #CCC;
+}
+
+.capa{
+    max-width: 250px;
+}
+
+#livro{
+    margin: 20px;
+    margin-left: 30px;
+    display: block;
+}
+
+#logo{
+    max-width: 280px;
+}
+
+#titulo{
+    text-align: center;
+}
+
+#p2{
+    display: block;
+    margin-top: 10px;
+}
+
+#dev{
+    height: 190px;
+    background-color: #CCC;
+    margin-top: 0px;
+}
+
+#primeira{
+    margin-left: 2%;
+}
+
+.estrela{
+    margin: 50px;
+    margin-left: -30px;
+    max-width: 100px;
+}
+
+.principal{
+    display: block;
+}
+
+#descricao{
+    text-align: justify;
+    max-width: 85%;
+}
+
+#escolhas{
+    margin: -30px;
+    margin-bottom: 0px;
+}
+
+#escolha{
+    height: 70px;
+    border: none;
+    background-color: blue;
+    font-weight: bold;
+    margin: 25px;
+    margin-left: 10%;
+    margin-bottom: -5px;
+    font-size: 25px;
+    width: 30%;
+}
+
+p{
+    font-size: 130%;
+}
+
+#titulo, #autor, #tradudor{
+    margin: 0px;
+}
+
+#classificacao{
+    color: white;
+    display: flex;
+    margin-top: 15px;
+    font-size: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+#img_classificacao{
+    max-width: 70px;
+    border-radius: 8%;
+}
+
+#sec{
+    display: flex;
+    margin: 18px;
+    margin-left: 30px;
+    margin-bottom: -18px;
+}
+
+header{
+    margin-bottom: 10px;
+    margin-left: 40px;
+    display: flex;
+}

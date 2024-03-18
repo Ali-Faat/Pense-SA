@@ -1,0 +1,49 @@
+.loginCloud{
+    border-radius: 5%;
+    display: block;
+    background-color: #E7E141;
+    font-size: 12px;
+    width: 460px;  
+}
+
+#logoext{
+    border: 2px solid #E7E141;
+    border-radius: 2%;
+    margin: 10px;
+}
+
+h2{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 1%;
+}
+
+input{
+    width: 75%;
+}
+
+.btn{
+    display: inline;
+    text-decoration: none;
+}
+
+.entrar{
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    height: 25px;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+button{
+    border: none;
+    background-color: white;
+    border-radius: 10%;
+    margin-bottom: 20px;
+    width: 40%;
+}
