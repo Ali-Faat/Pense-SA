@@ -11,6 +11,17 @@
     text-align: center;
 }
 
+/* Defina as variáveis de cor para os temas claro e escuro */
+:root {
+    --cor-fundo-claro: #ffffff; /* Cor de fundo para tema claro */
+    --cor-fundo-escuro: #000000; /* Cor de fundo para tema escuro */
+}
+  
+  /* Estilo para a imagem invertida */
+.img-invertida {
+    filter: invert(100%); /* Inverte as cores da imagem */
+}
+
 .livro{
     text-align: center;
     background-color: #fff;
