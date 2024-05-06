@@ -1,6 +1,6 @@
 .loginCloud{
     border-radius: 5%;
-    display: inline-block;
+    display: block;
     background-color: #E7E141;
     font-size: 12px;
     width: 460px;  
@@ -40,34 +40,10 @@ body{
     text-align: center;
 }
 
-#main {
-    display: flex;
-    justify-content: center; /* Alinha horizontalmente ao centro */
-    align-items: center; /* Alinha verticalmente ao centro */
-    height: 100vh; /* Define a altura para ocupar toda a altura da tela */
-}
-
 button{
     border: none;
     background-color: white;
     border-radius: 10%;
     margin-bottom: 20px;
     width: 40%;
-}
-
-
-@media only screen and (max-width: 600px){
-    body{
-        text-align: center;
-        align-items: center;
-    }
-
-    .loginCloud{
-        display: block;
-        width: 60%;
-    }
-
-    #logoext{
-        max-width: 50%;
-    }
 }
